@@ -1,4 +1,4 @@
-(defproject racksec/csv "0.1.0"
+(defproject racksec/csv "0.1.1-SNAPSHOT"
   :description "Clojure utilities for writing lists of maps to CSV files"
   :url "http://github.com/RackSec/csv-clj"
   :license {:name "Eclipse Public License"
