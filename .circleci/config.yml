@@ -39,4 +39,14 @@ jobs:
           key: v1-dependencies-{{ checksum "project.clj" }}
 
       # run tests!
-      - run: lein test
+      - run:
+          name: check formatting
+          command: lein cljfmt check
+
+      - run:
+          name: lint code
+          command: lein with-profile test eastwood
+
+      - run:
+          name: run tests
+          command: lein test
