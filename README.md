@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/RackSec/csv.svg?branch=master)](https://travis-ci.org/RackSec/csv)
 [![codecov](https://codecov.io/gh/RackSec/csv/branch/master/graph/badge.svg)](https://codecov.io/gh/RackSec/csv)
 [![Clojars Project](https://img.shields.io/clojars/v/racksec/csv.svg)](https://clojars.org/racksec/csv)
 
