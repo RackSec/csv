@@ -50,3 +50,11 @@ jobs:
       - run:
           name: run tests
           command: lein test
+
+      - run:
+          name: check test coverage
+          command: CLOVERAGE_VERSION=1.0.9 lein with-profile test cloverage --codecov
+
+      - run:
+          name: update coverage badge
+          command: bash <(curl -s https://codecov.io/bash) -f target/coverage/codecov.json
