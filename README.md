@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/rackerlabs/csv.svg?style=svg&circle-token=fb6327af02555f8661ffc1d1016e64bf769ccf41)](https://circleci.com/gh/rackerlabs/csv)
+[![CircleCI](https://circleci.com/gh/rackerlabs/csv.svg?style=shield&circle-token=fb6327af02555f8661ffc1d1016e64bf769ccf41)](https://circleci.com/gh/rackerlabs/csv)
 [![codecov](https://codecov.io/gh/RackSec/csv/branch/master/graph/badge.svg)](https://codecov.io/gh/RackSec/csv)
 [![Clojars Project](https://img.shields.io/clojars/v/racksec/csv.svg)](https://clojars.org/racksec/csv)
 
